@@ -8,7 +8,7 @@ def get_number_of_racers():
         else:
             print("Input is not numeric ... Try Again!")
             continue
-        if 2 <= racers < = 10:
+        if 2 <= racers <= 10:
             return racers
         else:
             print("Number is not in range (2-10), Pls Try again ")
